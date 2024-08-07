@@ -7,4 +7,14 @@ public class hello{
 // first released version of java is known as oak.  first platformt independent language
 /*after java 2 it was divided into further  parts 
  * J2SE(standaed edition) , J2ME (microconditon),J2EE(enter time )
+ * feautres of java 
+ * platform independent
+ * object oriented
+ * robust -- powerfull
+ * secure 
+ * high performance
+ * multithreading
+ * dynamic
+ * 
+
  */
