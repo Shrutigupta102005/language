@@ -6,6 +6,12 @@ public class operations {
         num+=3;
         System.out.println(num);
         //diff in post and pre increment and decrement 
-        
+        int g = 8;
+        int r = ++g;
+        System.out.println(r);
     }
 }
+/*Relational operator <,>,==,!=,>=,<= 
+ * logical operator and&& or|| not!
+ * 
+*/

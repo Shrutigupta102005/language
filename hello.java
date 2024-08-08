@@ -16,5 +16,10 @@ public class hello{
  * multithreading
  * dynamic
  * 
+CHAR SET a-z A-Z 0-9 
+s           pecial char @#.,[]
+java tokens(words) - reserved words  50
+identifiers -- users defined names 
+operators +-*/
 
  */
