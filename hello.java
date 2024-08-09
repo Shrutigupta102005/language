@@ -46,6 +46,14 @@ limit
   long 8               double 8              bool (1,0)
   short 2
   byte 1
+  for console input we use scanner class
+     used for taking the input
+     next -- string
+     nextint-- int
+     next double -- double 
+     next float -- float
+  there is mainly 3 types of environment 
+  1jkd 2jre 3jvm
 */
 
  
