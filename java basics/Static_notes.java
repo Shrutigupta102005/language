@@ -21,3 +21,6 @@ public class Static_notes {
     }
    }
 // static - it is the keyword in java which is used for sharing the common variable ,block,method,classs
+// static method in class ,in other class that method can be called by the class name instead of object refernce .
+// getter setter method of class (also known as acceser and )
+// setter method is used to modify the object state And getter method is used to get the conntent of object 
