@@ -6,7 +6,7 @@ class Vehicle {                              //parent class
     }
   }
   
-  class Car extends Vehicle {
+  class Inheritance extends Vehicle {
     private String modelName = "Mustang";    // Car attribute
     public static void main(String[] args) {
   
