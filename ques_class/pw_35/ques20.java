@@ -6,6 +6,6 @@ public class ques20 {
     String rev_word = "" ;
     for (int i = 0 ; i<word.length(); i++)
     { rev_word = word.charAt(i) + rev_word;}
-    System.out.println("rev_word");
+    System.out.println(rev_word);
     }
 }
