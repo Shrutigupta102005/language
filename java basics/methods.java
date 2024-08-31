@@ -3,6 +3,8 @@ public class methods{
     public static void main(String[] args){
          int d= sum();
          System.out.println(d);
+
+         System.out.println(mul(3,6));
     }
     static int sum(){
         Scanner my_obj = new Scanner(System.in);
@@ -13,5 +15,10 @@ public class methods{
         int c = a+b;
         return c;
 
+    }
+    // methods with paramter
+    static int mul(int a,int b){
+        int c = a*b;
+        return c;
     }
 }
