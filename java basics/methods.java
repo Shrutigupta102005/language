@@ -16,7 +16,7 @@ public class methods{
         return c;
 
     }
-    // methods with paramter
+    // methods with paramter 
     static int mul(int a,int b){
         int c = a*b;
         return c;
