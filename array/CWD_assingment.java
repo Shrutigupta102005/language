@@ -3,6 +3,7 @@ package array;
 public class CWD_assingment {
     public static void main(String[] args){
         ques1();
+        ques2();
         ques3();
         ques4(); 
         ques5();
@@ -20,8 +21,24 @@ public class CWD_assingment {
       }
       System.out.println(rel);
     }
-
+// check whether a given integer is present in an array or not 
     static void ques2(){
+        int [] marks = {12,34,56,23,45,23};
+        int sum = 56;
+        boolean rel = true;
+        for(int i =0; i<marks.length ; i++){
+            if (sum == marks[i]){
+                rel = false;
+            }
+        }
+        if (rel){
+            System.out.println("404 not found");
+
+        }
+        else{
+            System.out.println("mila mila mil gaya...");
+        }
+
 
     } 
 // calculate avg marks from array
