@@ -4,5 +4,7 @@ public class str_ings {
     /*                 string
      * sezlizable       comparable               charsequence (interface)
      *                                         String, StringBuffer and StringBuilder
+     * 
+     * 
      */
 }
