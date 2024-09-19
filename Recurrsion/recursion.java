@@ -1,9 +1,16 @@
 package Recurrsion;
 
 public class recursion {
+    int counter =0;
      public void fun(){
-        System.out.println(1); // recursion-  a function calling itself  
+       
+        if(counter==4)
+            return;
+        
+        System.out.println(counter); 
+        counter=counter+1;// recursion-  a function calling itself  
         fun();
+        System.out.println("bye");
      }
     public static void main(String[] args){
         recursion obj = new recursion();
