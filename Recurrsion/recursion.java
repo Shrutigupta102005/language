@@ -10,7 +10,8 @@ public class recursion {
         System.out.println(counter); 
         counter=counter+1;// recursion-  a function calling itself  
         fun();
-        System.out.println("bye");
+        System.out.println(counter);
+        counter=counter-1;
      }
     public static void main(String[] args){
         recursion obj = new recursion();
