@@ -6,6 +6,7 @@ public class ques1 {
         }
         else{
             System.out.println("number is odd");
+// nice
         }
     }
 }
