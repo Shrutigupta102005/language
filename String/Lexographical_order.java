@@ -24,4 +24,4 @@ public class Lexographical_order {
         return s1.length()-s2.length();
     }
         
- }
+ }// if neg s2 is big ,if positive then s1 is big
