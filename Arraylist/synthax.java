@@ -3,7 +3,7 @@ import java.util.*;
 public class synthax {
     public static void main(String[] args){
         //Creation 
-        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Integer> list1 = new ArrayList<>();   // 10 size initalise 
         // add element  range 0 to size 
         list1.add(20);
         list1.add(20);
@@ -33,9 +33,11 @@ public class synthax {
         for(int i =0 ; i < ll.size();i++){
             System.out.println(ll.get(i));
         }
-        // for - each loop  
+        // for - each loop   -- reverse not possible in for each loop 
         for(int val:list1){
             System.out.println(val);
         }
+        // capacity is kitna rakh sakteh hai 
+        // size is kitni roti kahai
     }
 }
