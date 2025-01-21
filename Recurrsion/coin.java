@@ -2,7 +2,7 @@ package Recurrsion;
 
 public class coin {
     public static void main(String[] args){
-        int n = 4;
+        int n = 3;
         coin(n,"");
     }
     static void coin(int n , String ans){
