@@ -12,6 +12,13 @@ public class sudoko {
 	}
 
 	public static boolean Print(int[][]grid,int row , int col) {
+        if(col==9){  // base condition
+            row++;
+            col=0;
+        }
+        if(row==9){
+            return true;
+        }
         if(grid[row][col]!=0){
             return Print(grid,row,col+1);
         }
@@ -27,5 +34,31 @@ public class sudoko {
                 }
             }
         }
+        return false;
+    }
+    public static boolean isitsafe(int[][]grid, int row , int col , int val ){
+        // row
+       for(int i = 0 ; i<9 ; i++){
+        if(grid[row][i]== val){
+            return false;
+        }
+       }
+       //col
+       for(int i = 0 ; i < 9 ;i++){
+        if(grid[i][col]==val){
+            return false;
+        }
+       }
+       // 3*3 matrix
+       int r= row - row %3;
+       int c= col - col %3;
+       for(int i = r; i < r+3;i++){
+        for( int j = c ; j <c+3; j++){
+             if(grid[i][j]==val){
+                return false;
+             }
+        }
+       }
+       return true;
     }
 }
