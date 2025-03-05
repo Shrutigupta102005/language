@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Stack;
+
+public class testStack {
+   public testStack() {
+   }
+
+   public static void main(String[] var0) {
+      Stack var1 = new Stack();
+      var1.push(100);
+      System.out.println(var1.peek());
+   }
+}
