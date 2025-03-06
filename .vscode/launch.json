@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stack_span",
+            "request": "launch",
+            "mainClass": "oops.Stack_span",
+            "projectName": "language-1_b7d98227"
+        },
+        {
+            "type": "java",
             "name": "Stack_creation",
             "request": "launch",
             "mainClass": "Stack_creation",
