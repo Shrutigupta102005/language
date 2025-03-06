@@ -1,17 +1,15 @@
-package oops;
-
 import java.util.Stack;
 
-public class Stack_span {
-    public static void main(String[] args){
-        int [] arr = {30, 35 , 40 ,38,35};
-        Cal_Stack(arr);
+public class leetcode87{
+    public static void main(String[] args) {
+        
     }
-    public static void Cal_Stack(int[] arr){
-        int [] ans = new int [arr.length];
+    public static void Largest_Histogram(int[] arr){
         Stack<Integer> st = new Stack<>();
+        int ans = 0 ;
         for(int i =0; i <ans.length ; i++){
             while(!st.isEmpty() && arr[i] > arr[st.peek()]){
+                int h = arr[st.pop()];
                 st.pop();
             }
             if(st.isEmpty()){
@@ -23,17 +21,6 @@ public class Stack_span {
         }
         for(int i = 0 ; i <ans.length;i++){
             System.out.println(ans[i] + " ");
-        }
-    
-    int r = arr.length;
-    while(!st.isEmpty()){
-        int h = arr[st.pop()];
-        if(st.isEmpty()){
-            ans = Math.max(h*r,ans);
-        }
-        else{
-            int l = l.peek();
-
         }
     }
 }
