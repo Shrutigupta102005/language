@@ -3,12 +3,21 @@ import java.util.Scanner;
 public class Square {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
-        int a = sc.nextInt();
-        int area  = n * m ;
-        int flag_area = a*a;
-        int num = area /flag_area ;
-        System.out.println(num );
+
+         long n = sc.nextLong();  
+         long m = sc.nextLong();  
+         long a = sc.nextLong();  
+         sc.close();
+         
+         
+         long tilesAlongLength = (n + a - 1) / a;  
+         long tilesAlongWidth = (m + a - 1) / a;   
+         
+         
+         long totalTiles = tilesAlongLength * tilesAlongWidth;
+         
+         
+         System.out.println(totalTiles);
+      
     }
 }
